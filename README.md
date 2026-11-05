@@ -51,3 +51,5 @@ We encourage you to report issues and contribute changes.
 ## License
 
 Deepin GoLang Library is licensed under [GPL-3.0-or-later](LICENSE).
+
+<!-- group-version-guard test: no version change -->
