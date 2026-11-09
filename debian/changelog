@@ -1,3 +1,10 @@
+golang-github-linuxdeepin-go-lib (6.0.51) stable; urgency=medium
+
+  * ci(test): enable group version guard
+  * test: point changelog workflow at isolated validation workflow
+
+ -- Release Review <release-review@example.invalid>  Mon, 09 Nov 2026 10:48:47 +0800
+
 golang-github-linuxdeepin-go-lib (6.0.50) unstable; urgency=medium
 
   * ci: add changelog workflow caller
