@@ -17,10 +17,6 @@ on:
         required: false
         default: master
         type: string
-      distribution:
-        required: false
-        default: unstable
-        type: string
       create_pr:
         required: false
         default: true
