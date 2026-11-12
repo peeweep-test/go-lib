@@ -33,10 +33,7 @@ on:
 
 jobs:
   update_changelog:
-    permissions:
-      contents: write
-      pull-requests: write
-    uses: linuxdeepin/.github/.github/workflows/update-changelog.yml@master
+    uses: peeweep-test/.github/.github/workflows/update-changelog.yml@main
     with:
       version: ${{ inputs.version }}
       name: ${{ inputs.name }}
@@ -44,9 +41,7 @@ jobs:
       base_branch: ${{ inputs.base_branch }}
       distribution: ${{ inputs.distribution }}
       create_pr: ${{ inputs.create_pr }}
-    secrets:
-      APP_ID: ${{ secrets.APP_ID }}
-      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+    secrets: inherit
 
   show_result:
     runs-on: ubuntu-latest
