@@ -1,3 +1,9 @@
+golang-github-linuxdeepin-go-lib (6.8.1) unstable; urgency=medium
+
+  * Release 6.8.1
+
+ -- Zhao Fangxun <zhaofangxun@uniontech.com>  Fri, 13 Nov 2026 16:51:13 +0800
+
 golang-github-linuxdeepin-go-lib (6.8.0) unstable; urgency=medium
 
   * ci(test): enable group version guard
