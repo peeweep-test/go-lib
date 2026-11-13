@@ -1,3 +1,11 @@
+golang-github-linuxdeepin-go-lib (6.8.0) unstable; urgency=medium
+
+  * ci(test): enable group version guard
+  * test: point group version guard at isolated validation workflow
+  * test: update DDE group version guard (#6)
+
+ -- Zhao Fangxun <zhaofangxun@uniontech.com>  Fri, 13 Nov 2026 14:55:33 +0800
+
 golang-github-linuxdeepin-go-lib (6.0.50) unstable; urgency=medium
 
   * ci: add changelog workflow caller
